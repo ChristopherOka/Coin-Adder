@@ -5,9 +5,9 @@ void coin_adder() {
 	int loonies; 
 	int quarters;
 	double total_money; 
-	double const toonie_value = 2.00; //declare constant variable of a toonie
-	double const loonie_value = 1.00; //declare constant variable of a loonie
-	double const quarter_value = 0.25; //declare constant variable of a quarter
+	double const toonie_value = 2.00; //declare constant value of a toonie
+	double const loonie_value = 1.00; //declare constant value of a loonie
+	double const quarter_value = 0.25; //declare constant value of a quarter
 
 	std::cout << "How many toonies do you have?\n"; //ask the user how many toonies they have
 	std::cin >> toonies; //accept user inputted value for toonies
